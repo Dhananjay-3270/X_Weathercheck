@@ -32,7 +32,7 @@ console.log(response.data);
 
   return (
     <>
-      <input onChange={handlechange} placeholder="Enter city name" />
+      <input type="text" onChange={handlechange} placeholder="Enter city name" />
       <button
         onClick={() => {
           fetchdata(APIkey, searchvalue), setisclicked(!isclicked);
