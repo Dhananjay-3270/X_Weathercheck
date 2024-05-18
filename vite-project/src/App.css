@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.weather-cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 800px;
+  height: auto;
+
+}
+.weather-card{
+  width: 150px;
+  height: 150px;
+background-color: aliceblue;
+color: black;
+}
