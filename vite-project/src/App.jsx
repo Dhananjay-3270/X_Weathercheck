@@ -49,7 +49,7 @@ console.log(response.data);
               <div  className="weather-card"> <h4>Wind Speed</h4>{data.current.wind_kph}kph</div>
               </>
           ) : (
-           <p>Loading Data</p>
+           <p>Loading data…</p>
           )
         ) : (
           ""
